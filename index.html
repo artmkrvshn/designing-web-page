@@ -1,0 +1,50 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Catalogue</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+<header class="header">
+    <h1 class="library-name">City Library</h1>
+    <nav class="nav">
+        <ul class="nav-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Catalogue</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="main-content">
+    <section class="search-filter">
+        <input type="text" id="search-bar" placeholder="Search by title or author..." class="search-input">
+        <select id="genre-filter" class="filter-select">
+            <option value="">All Genres</option>
+            <option value="fiction">Fiction</option>
+            <option value="non-fiction">Non-Fiction</option>
+            <option value="mystery">Mystery</option>
+            <option value="science">Science</option>
+        </select>
+        <button id="search-button" class="search-button">Search</button>
+    </section>
+
+    <section class="book-catalogue" id="book-catalogue">
+    </section>
+</main>
+
+<footer class="footer">
+    <p>Contact us: info@citylibrary.com | 123-456-7890</p>
+    <p>© 2024 City Library. All rights reserved.</p>
+</footer>
+
+<script src="js/books.js"></script>
+<script src="js/script.js"></script>
+</body>
+
+</html>
